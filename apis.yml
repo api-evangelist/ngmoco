@@ -1,4 +1,16 @@
 aid: ngmoco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ngmoco.png
 name: Ngmoco *
 description: 'Ngmoco * is a company surfaced as a portfolio company of gv, ivp, norwest-venture-partners
   and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
@@ -14,11 +26,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Gaming
+- Social Gaming
+- Defunct
 apis: []
+x-status: defunct
+x-status-note: Acquired by DeNA in 2010 and folded into the Mobage platform; the
+  ngmoco brand and any first-party API surface are retired. No live ngmoco developer
+  portal, API, or SDK exists. blog.ngmoco.com is a historical Tumblr blog; ngmoco.com
+  no longer resolves; docs.mobage.com is DeNA's Mobage platform (gated), not ngmoco.
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
